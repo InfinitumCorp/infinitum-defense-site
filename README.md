@@ -10,3 +10,5 @@ Website for Infinitum Defense, the defensive arm of Infinitum Corporation, headq
 ```bash
 vercel deploy --prod
 ```
+
+Pushes to `main` deploy to production automatically through Vercel's GitHub integration.
