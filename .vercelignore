@@ -1,0 +1,4 @@
+src
+build.py
+i18n.json
+.env*
