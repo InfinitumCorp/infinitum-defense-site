@@ -3,3 +3,5 @@
 node_modules
 __pycache__
 .cloudflare
+node_modules
+dist

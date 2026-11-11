@@ -7,10 +7,13 @@ Both pages carry the whole dictionary inline so the EN/RU switch can swap text l
 
 Also renders, from services.json: /services and /ru/services (hub), one page per service in each
 language, 404.html, sitemap.xml and llms.txt.
+
+Finally it copies the public files into dist/, which the Cloudflare Worker serves (`cf deploy`).
 """
 import datetime
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
 
@@ -111,6 +114,27 @@ def build_pages(d):
     write("sitemap.xml", pages.sitemap(data, datetime.date.today().isoformat()))
     write("llms.txt", llms(d, data))
     print(f"wrote {n} service pages, 404.html, sitemap.xml ({len(pages.all_urls(data))} URLs), llms.txt")
+    assemble_dist()
+
+
+# Only these go live. An allowlist keeps sources, configs and any .env file out of the upload.
+PUBLIC_FILES = ["index.html", "404.html", "sitemap.xml", "robots.txt", "llms.txt", "site.webmanifest", "favicon.ico"]
+PUBLIC_GLOBS = ["*.png", "[0-9a-f]" * 32 + ".txt"]  # images, IndexNow key
+PUBLIC_DIRS = ["ru", "services"]
+
+
+def assemble_dist():
+    dist = ROOT / "dist"
+    shutil.rmtree(dist, ignore_errors=True)
+    dist.mkdir()
+    files = [ROOT / f for f in PUBLIC_FILES] + [f for g in PUBLIC_GLOBS for f in ROOT.glob(g)]
+    for f in files:
+        shutil.copy2(f, dist / f.name)
+    for d in PUBLIC_DIRS:
+        shutil.copytree(ROOT / d, dist / d)
+    shutil.copy2(ROOT / "src" / "_headers", dist / "_headers")
+    count = sum(1 for f in dist.rglob("*") if f.is_file())
+    print(f"assembled dist/ ({count} files)")
 
 
 def llms(d, data):
