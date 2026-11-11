@@ -14,8 +14,9 @@ All page text lives in `i18n.json`, with an `en` and `ru` value for every string
 python build.py
 ```
 
-This writes `index.html` (English) and `ru/index.html` (Russian). Don't edit those two files by hand; the
-build overwrites them. Both pages carry the whole dictionary, so the EN/RU switch in the header swaps the
+This writes `index.html` (English) and `ru/index.html` (Russian), plus everything generated from
+`services.json`: the services hub (`/services`, `/ru/services`), one page per service in each language,
+`404.html`, `sitemap.xml` and `llms.txt`. Don't edit generated files by hand; the build overwrites them. Both pages carry the whole dictionary, so the EN/RU switch in the header swaps the
 text in place without a reload.
 
 ## Deploy
@@ -25,4 +26,10 @@ vercel deploy --prod
 ```
 
 Pushes to `main` deploy to production automatically through Vercel's GitHub integration.
-`.vercelignore` keeps `src/`, `build.py` and `i18n.json` out of the deployment.
+`.vercelignore` keeps the sources (`src/`, `build.py`, `i18n.json`, `services.json`) out of the deployment.
+
+After a production deploy, tell Bing, Yandex and other IndexNow engines about the changed pages:
+
+```bash
+python indexnow.py
+```

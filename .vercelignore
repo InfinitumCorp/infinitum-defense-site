@@ -2,3 +2,7 @@ src
 build.py
 i18n.json
 .env*
+services.json
+indexnow.py
+.cloudflare
+README.md

@@ -73,14 +73,14 @@
         "@type": "OfferCatalog",
         "name": "Mission sets",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Physical Protection", "serviceType": "Site and perimeter security", "description": "Site and perimeter security, access control, and threat deterrence and response for a single day or on an ongoing contract." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Executive Protection", "serviceType": "Close protection", "description": "Close protection details, travel and movement planning, and risk and threat assessment for executives and principals." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event Security", "serviceType": "Event security", "description": "Guest screening and credentialing, crowd management and venue coordination for private functions and large-scale gatherings." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Armed Tactical Response", "serviceType": "Armed security", "description": "Licensed armed officers with military and law-enforcement backgrounds, rapid response teams, and lockdown and evacuation support." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Secure Transport & Convoy", "serviceType": "Secure transport", "description": "Armored and escort vehicles, route reconnaissance and advance team coordination for people and high-value assets." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Protective Intelligence", "serviceType": "Threat assessment", "description": "Threat and vulnerability assessments, open-source monitoring and pre-deployment briefings." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Critical Infrastructure Protection", "serviceType": "Facility security", "description": "Perimeter and patrol operations, command post staffing and surveillance detection for data centers, utilities, logistics hubs and government-adjacent sites." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tactical Training", "serviceType": "Security training", "description": "Active-threat response drills, tactical first aid and security team readiness training." } }
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Physical Protection", "url": "https://infinitumdefense.com/services/physical-protection", "serviceType": "Site and perimeter security", "description": "Site and perimeter security, access control, and threat deterrence and response for a single day or on an ongoing contract." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Executive Protection", "url": "https://infinitumdefense.com/services/executive-protection", "serviceType": "Close protection", "description": "Close protection details, travel and movement planning, and risk and threat assessment for executives and principals." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event Security", "url": "https://infinitumdefense.com/services/event-security", "serviceType": "Event security", "description": "Guest screening and credentialing, crowd management and venue coordination for private functions and large-scale gatherings." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Armed Tactical Response", "url": "https://infinitumdefense.com/services/armed-security", "serviceType": "Armed security", "description": "Licensed armed officers with military and law-enforcement backgrounds, rapid response teams, and lockdown and evacuation support." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Secure Transport & Convoy", "url": "https://infinitumdefense.com/services/secure-transport", "serviceType": "Secure transport", "description": "Armored and escort vehicles, route reconnaissance and advance team coordination for people and high-value assets." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Protective Intelligence", "url": "https://infinitumdefense.com/services/protective-intelligence", "serviceType": "Threat assessment", "description": "Threat and vulnerability assessments, open-source monitoring and pre-deployment briefings." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Critical Infrastructure Protection", "url": "https://infinitumdefense.com/services/critical-infrastructure-protection", "serviceType": "Facility security", "description": "Perimeter and patrol operations, command post staffing and surveillance detection for data centers, utilities, logistics hubs and government-adjacent sites." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tactical Training", "url": "https://infinitumdefense.com/services/security-training", "serviceType": "Security training", "description": "Active-threat response drills, tactical first aid and security team readiness training." } }
         ]
       }
     },
@@ -106,6 +106,7 @@
   ]
 }
 </script>
+<script type="application/ld+json">{{__faq_ld__}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap">
@@ -384,6 +385,19 @@ footer .wrap { padding-block: 72px 40px; }
   .statement .w { color: var(--fg); }
   .statement em .w { color: var(--muted); }
 }
+
+/* Service links and FAQ */
+.op .more, .sec-head .more { display: inline-flex; gap: 8px; margin: 44px 0 0 24px; font-size: 14px; color: var(--muted); border-bottom: 1px solid var(--line-strong); padding-bottom: 4px; transition: color .2s, border-color .2s; }
+.sec-head .more { margin: 0; }
+.op .more:hover, .sec-head .more:hover { color: var(--fg); border-color: var(--fg); }
+@media (max-width: 760px) { .op .more { margin-left: 0; margin-top: 20px; display: flex; width: max-content; } }
+.faq details { border-top: 1px solid var(--line); }
+.faq details:last-child { border-bottom: 1px solid var(--line); }
+.faq summary { cursor: pointer; list-style: none; padding: 24px 48px 24px 0; font-size: clamp(18px, 1.6vw, 22px); letter-spacing: -.02em; position: relative; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 4px; top: 20px; font: 400 26px/1 var(--mono); color: var(--muted); transition: transform .3s var(--ease); }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { margin: 0 0 26px; color: var(--muted); max-width: 70ch; }
 </style>
 <style>body{margin:0}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
@@ -462,6 +476,7 @@ footer .wrap { padding-block: 72px 40px; }
             <p data-i18n="p1">{{p1}}</p>
             <ul><li data-i18n="p1a">{{p1a}}</li><li data-i18n="p1b">{{p1b}}</li><li data-i18n="p1c">{{p1c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p1btn">{{p1btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s1}}" data-i18n-attr="href:u_s1"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
           <article class="op" role="tabpanel" id="p2" aria-labelledby="t2" data-service="Executive Protection" hidden>
             <div class="op-top"><span class="label" data-i18n="g_protection">{{g_protection}}</span><span class="op-num">02</span></div>
@@ -469,6 +484,7 @@ footer .wrap { padding-block: 72px 40px; }
             <p data-i18n="p2">{{p2}}</p>
             <ul><li data-i18n="p2a">{{p2a}}</li><li data-i18n="p2b">{{p2b}}</li><li data-i18n="p2c">{{p2c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p2btn">{{p2btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s2}}" data-i18n-attr="href:u_s2"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
           <article class="op" role="tabpanel" id="p3" aria-labelledby="t3" data-service="Event Security" hidden>
             <div class="op-top"><span class="label" data-i18n="g_protection">{{g_protection}}</span><span class="op-num">03</span></div>
@@ -476,6 +492,7 @@ footer .wrap { padding-block: 72px 40px; }
             <p data-i18n="p3">{{p3}}</p>
             <ul><li data-i18n="p3a">{{p3a}}</li><li data-i18n="p3b">{{p3b}}</li><li data-i18n="p3c">{{p3c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p3btn">{{p3btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s3}}" data-i18n-attr="href:u_s3"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
           <article class="op" role="tabpanel" id="p4" aria-labelledby="t4" data-service="Armed Tactical Response" hidden>
             <div class="op-top"><span class="label" data-i18n="g_tactical">{{g_tactical}}</span><span class="op-num">04</span></div>
@@ -483,6 +500,7 @@ footer .wrap { padding-block: 72px 40px; }
             <p data-i18n="p4">{{p4}}</p>
             <ul><li data-i18n="p4a">{{p4a}}</li><li data-i18n="p4b">{{p4b}}</li><li data-i18n="p4c">{{p4c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p4btn">{{p4btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s4}}" data-i18n-attr="href:u_s4"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
           <article class="op" role="tabpanel" id="p5" aria-labelledby="t5" data-service="Secure Transport" hidden>
             <div class="op-top"><span class="label" data-i18n="g_tactical">{{g_tactical}}</span><span class="op-num">05</span></div>
@@ -490,6 +508,7 @@ footer .wrap { padding-block: 72px 40px; }
             <p data-i18n="p5">{{p5}}</p>
             <ul><li data-i18n="p5a">{{p5a}}</li><li data-i18n="p5b">{{p5b}}</li><li data-i18n="p5c">{{p5c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p5btn">{{p5btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s5}}" data-i18n-attr="href:u_s5"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
           <article class="op" role="tabpanel" id="p6" aria-labelledby="t6" data-service="Protective Intelligence" hidden>
             <div class="op-top"><span class="label" data-i18n="g_intel">{{g_intel}}</span><span class="op-num">06</span></div>
@@ -497,6 +516,7 @@ footer .wrap { padding-block: 72px 40px; }
             <p data-i18n="p6">{{p6}}</p>
             <ul><li data-i18n="p6a">{{p6a}}</li><li data-i18n="p6b">{{p6b}}</li><li data-i18n="p6c">{{p6c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p6btn">{{p6btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s6}}" data-i18n-attr="href:u_s6"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
           <article class="op" role="tabpanel" id="p7" aria-labelledby="t7" data-service="Critical Infrastructure Protection" hidden>
             <div class="op-top"><span class="label" data-i18n="g_infra">{{g_infra}}</span><span class="op-num">07</span></div>
@@ -504,6 +524,7 @@ footer .wrap { padding-block: 72px 40px; }
             <p data-i18n="p7">{{p7}}</p>
             <ul><li data-i18n="p7a">{{p7a}}</li><li data-i18n="p7b">{{p7b}}</li><li data-i18n="p7c">{{p7c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p7btn">{{p7btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s7}}" data-i18n-attr="href:u_s7"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
           <article class="op" role="tabpanel" id="p8" aria-labelledby="t8" data-service="Tactical Training" hidden>
             <div class="op-top"><span class="label" data-i18n="g_readiness">{{g_readiness}}</span><span class="op-num">08</span></div>
@@ -511,6 +532,7 @@ footer .wrap { padding-block: 72px 40px; }
             <p data-i18n="p8">{{p8}}</p>
             <ul><li data-i18n="p8a">{{p8a}}</li><li data-i18n="p8b">{{p8b}}</li><li data-i18n="p8c">{{p8c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p8btn">{{p8btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s8}}" data-i18n-attr="href:u_s8"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
         </div>
       </div>
@@ -572,6 +594,25 @@ footer .wrap { padding-block: 72px 40px; }
     </div>
   </section>
 
+  <section class="band" id="faq">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="label" data-scramble data-i18n="faq_label">{{faq_label}}</div>
+        <div>
+          <h2 data-i18n="faq_h2">{{faq_h2}}</h2>
+          <p><a class="more" href="{{u_hub}}" data-i18n-attr="href:u_hub"><span data-i18n="all_svc">{{all_svc}}</span> <span class="arr">→</span></a></p>
+        </div>
+      </div>
+      <div class="faq">
+        <details><summary data-i18n="fq1">{{fq1}}</summary><p data-i18n="fa1">{{fa1}}</p></details>
+        <details><summary data-i18n="fq2">{{fq2}}</summary><p data-i18n="fa2">{{fa2}}</p></details>
+        <details><summary data-i18n="fq3">{{fq3}}</summary><p data-i18n="fa3">{{fa3}}</p></details>
+        <details><summary data-i18n="fq4">{{fq4}}</summary><p data-i18n="fa4">{{fa4}}</p></details>
+        <details><summary data-i18n="fq5">{{fq5}}</summary><p data-i18n="fa5">{{fa5}}</p></details>
+      </div>
+    </div>
+  </section>
+
   <section class="band" id="contact">
     <div class="wrap">
       <div class="contact">
@@ -623,7 +664,7 @@ footer .wrap { padding-block: 72px 40px; }
       </div>
       <div><h4 data-i18n="g_protection">{{g_protection}}</h4><ul><li><a href="#services" data-op="1" data-i18n="s1">{{s1}}</a></li><li><a href="#services" data-op="2" data-i18n="s2">{{s2}}</a></li><li><a href="#services" data-op="3" data-i18n="s3">{{s3}}</a></li></ul></div>
       <div><h4 data-i18n="ft_tact">{{ft_tact}}</h4><ul><li><a href="#services" data-op="4" data-i18n="s4">{{s4}}</a></li><li><a href="#services" data-op="5" data-i18n="s5s">{{s5s}}</a></li><li><a href="#services" data-op="6" data-i18n="s6">{{s6}}</a></li></ul></div>
-      <div><h4 data-i18n="ft_company">{{ft_company}}</h4><ul><li><a href="#about" data-i18n="nav_about">{{nav_about}}</a></li><li><a href="#approach" data-i18n="nav_approach">{{nav_approach}}</a></li><li><a href="#contact" data-i18n="ft_contact">{{ft_contact}}</a></li></ul></div>
+      <div><h4 data-i18n="ft_company">{{ft_company}}</h4><ul><li><a href="#about" data-i18n="nav_about">{{nav_about}}</a></li><li><a href="#approach" data-i18n="nav_approach">{{nav_approach}}</a></li><li><a href="{{u_hub}}" data-i18n-attr="href:u_hub" data-i18n="all_svc">{{all_svc}}</a></li><li><a href="#contact" data-i18n="ft_contact">{{ft_contact}}</a></li></ul></div>
     </div>
     <div class="foot-bot label">
       <span>© <span id="yr">2026</span> Infinitum Defense Contracting Inc.</span>
