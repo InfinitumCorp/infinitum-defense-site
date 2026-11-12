@@ -20,7 +20,7 @@ UI = {
         "company": "Company", "contact": "Contact", "lang": "Language", "crumbs": "Breadcrumb",
         "nf_title": "Page not found | Infinitum Defense", "nf_h": "This page doesn't exist.",
         "nf_p": "The link may be old or mistyped. Everything we do is listed on the services page.",
-        "locale": "en_US", "inlang": "en-US",
+        "locale": "en_US", "inlang": "en-US", "og_alt": "Infinitum Defense: We protect what matters most.",
     },
     "ru": {
         "home": "Главная", "services": "Услуги", "cta": "Связаться", "book": "Бесплатная консультация",
@@ -32,7 +32,7 @@ UI = {
         "company": "Компания", "contact": "Контакты", "lang": "Язык", "crumbs": "Навигационная цепочка",
         "nf_title": "Страница не найдена | Infinitum Defense", "nf_h": "Такой страницы нет.",
         "nf_p": "Возможно, ссылка устарела или в ней опечатка. Все наши услуги перечислены на странице услуг.",
-        "locale": "ru_RU", "inlang": "ru-RU",
+        "locale": "ru_RU", "inlang": "ru-RU", "og_alt": "Infinitum Defense: Мы защищаем то, что важнее всего.",
     },
 }
 
@@ -139,7 +139,7 @@ def ld(obj):
     return json.dumps(obj, ensure_ascii=False, indent=1).replace("</", "<\\/")
 
 
-def head(lang, title, desc, paths, og_image, ld_obj, robots="index, follow, max-image-preview:large, max-snippet:-1"):
+def head(lang, title, desc, paths, og_image, ld_obj, robots="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"):
     u = UI[lang]
     other = "ru" if lang == "en" else "en"
     url = SITE + paths[lang] if paths else None
@@ -161,10 +161,13 @@ def head(lang, title, desc, paths, og_image, ld_obj, robots="index, follow, max-
 <meta property="og:image" content="{SITE}/{og_image}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="{escape(u['og_alt'])}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{escape(plain(title))}">
 <meta name="twitter:description" content="{escape(plain(desc))}">
 <meta name="twitter:image" content="{SITE}/{og_image}">
+<meta name="twitter:image:alt" content="{escape(u['og_alt'])}">
 """
     ld_tag = f'<script type="application/ld+json">\n{ld(ld_obj)}\n</script>\n' if ld_obj else ""
     return f"""<!doctype html>

@@ -4,7 +4,7 @@
   "hub": {
     "en": {
       "title": "Security Services in Washington, D.C. | Infinitum Defense",
-      "desc": "Executive protection, event security, armed officers, secure transport, protective intelligence, infrastructure protection and tactical training from Washington, D.C. Open 24/7.",
+      "desc": "Executive protection, event security, armed officers, secure transport, protective intelligence and tactical training from Washington, D.C. Open 24/7.",
       "h1": "Security services",
       "lede": "Eight mission sets, planned with your team and staffed around the clock from Washington, D.C. Every engagement starts with a free consultation and can run for a single day or indefinitely."
     },
@@ -21,7 +21,7 @@
       "related": ["executive-protection", "critical-infrastructure-protection", "armed-security"],
       "en": {
         "name": "Physical Protection",
-        "title": "Physical Security &amp; Guard Services in Washington, D.C. | Infinitum Defense",
+        "title": "Security Guard Services in Washington, D.C. | Infinitum Defense",
         "desc": "Site and perimeter security, access control and threat response for property and people in Washington, D.C. One day or ongoing contracts. Open 24/7, free consultation.",
         "h1": "Physical protection for property and people",
         "lede": "Our officers stand on the front line against violent attacks, harassment and physical aggression. We secure your site and the people in it for a single day or on an ongoing contract, staffed around the clock from Washington, D.C.",
@@ -61,7 +61,7 @@
       "related": ["secure-transport", "protective-intelligence", "event-security"],
       "en": {
         "name": "Executive Protection",
-        "title": "Executive Protection &amp; Close Protection in Washington, D.C. | Infinitum Defense",
+        "title": "Executive Protection in Washington, D.C. | Infinitum Defense",
         "desc": "Close protection details, travel and movement planning, and risk assessment for executives, principals and their families. Washington, D.C., 24/7. Free consultation.",
         "h1": "Executive protection that doesn't get in the way",
         "lede": "Your executives are your most valuable people and often your most visible targets. We plan their movements, assess the risk around them and keep principals protected without interrupting the work they are there to do.",
@@ -101,7 +101,7 @@
       "related": ["physical-protection", "executive-protection", "armed-security"],
       "en": {
         "name": "Event Security",
-        "title": "Event Security Company in Washington, D.C. | Infinitum Defense",
+        "title": "Event Security Company in Washington, DC | Infinitum Defense",
         "desc": "Guest screening, credentialing, crowd management and venue coordination for private functions and large events in Washington, D.C. Open 24/7, free consultation.",
         "h1": "Event security from arrival to last departure",
         "lede": "We act as your right arm for every event need. Our officers watch every guest and every entrance, so attendees feel welcome, organisers can focus on the programme, and large gatherings run smoothly to the last departure.",
@@ -141,7 +141,7 @@
       "related": ["physical-protection", "critical-infrastructure-protection", "security-training"],
       "en": {
         "name": "Armed Tactical Response",
-        "title": "Armed Security Officers &amp; Tactical Response in Washington, D.C. | Infinitum Defense",
+        "title": "Armed Security Officers in Washington, DC | Infinitum Defense",
         "desc": "Licensed armed officers with military and law-enforcement backgrounds, rapid response teams and lockdown support for high-threat situations. Washington, D.C., 24/7.",
         "h1": "Armed officers for high-threat situations",
         "lede": "Licensed armed officers with military and law-enforcement backgrounds, ready to respond when the threat is serious and to hold a position until the area is secure.",
@@ -159,7 +159,7 @@
       },
       "ru": {
         "name": "Вооружённое тактическое реагирование",
-        "title": "Вооружённая охрана и тактическое реагирование в Вашингтоне | Infinitum Defense",
+        "title": "Вооружённая охрана в Вашингтоне | Infinitum Defense",
         "desc": "Лицензированные вооружённые сотрудники с опытом службы в армии и полиции, группы быстрого реагирования и поддержка при блокировке. Вашингтон, 24/7.",
         "h1": "Вооружённая охрана для ситуаций высокой угрозы",
         "lede": "Лицензированные вооружённые сотрудники с опытом службы в армии и правоохранительных органах, готовые реагировать на серьёзную угрозу и удерживать позицию, пока территория не будет в безопасности.",
@@ -181,7 +181,7 @@
       "related": ["executive-protection", "protective-intelligence", "armed-security"],
       "en": {
         "name": "Secure Transport &amp; Convoy",
-        "title": "Secure Transportation &amp; Armored Escort in Washington, D.C. | Infinitum Defense",
+        "title": "Secure Transport &amp; Armored Escort, DC | Infinitum Defense",
         "desc": "Planned, escorted movement for people and high-value assets: armored and escort vehicles, route reconnaissance and advance teams. Washington, D.C., 24/7.",
         "h1": "Secure transport for people and high-value assets",
         "lede": "Planned, escorted movement from door to door. Routes are surveyed in advance, with alternates and safe havens mapped before the vehicles roll.",
@@ -199,7 +199,7 @@
       },
       "ru": {
         "name": "Безопасная перевозка и сопровождение",
-        "title": "Безопасная перевозка и бронированное сопровождение в Вашингтоне | Infinitum Defense",
+        "title": "Безопасная перевозка и сопровождение в Вашингтоне | Infinitum Defense",
         "desc": "Спланированное перемещение людей и ценных активов с сопровождением: бронированные автомобили, разведка маршрута и передовые группы. Вашингтон, 24/7.",
         "h1": "Безопасная перевозка людей и ценных активов",
         "lede": "Спланированное перемещение под сопровождением от двери до двери. Маршруты обследуются заранее, а запасные пути и безопасные укрытия намечаются до начала движения.",
@@ -221,7 +221,7 @@
       "related": ["executive-protection", "critical-infrastructure-protection", "secure-transport"],
       "en": {
         "name": "Protective Intelligence",
-        "title": "Protective Intelligence &amp; Threat Assessment Services | Infinitum Defense",
+        "title": "Protective Intelligence &amp; Threat Assessment | Infinitum Defense",
         "desc": "Threat and vulnerability assessments, open-source monitoring and pre-deployment briefings that identify threats before they reach your door. Washington, D.C.",
         "h1": "Protective intelligence: see the threat before it arrives",
         "lede": "We identify threats before they reach your door. Our analysts monitor open sources, assess individuals of concern and brief your team on what the risk picture looks like this week.",
@@ -261,7 +261,7 @@
       "related": ["physical-protection", "armed-security", "protective-intelligence"],
       "en": {
         "name": "Critical Infrastructure Protection",
-        "title": "Critical Infrastructure &amp; Facility Security | Infinitum Defense",
+        "title": "Critical Infrastructure Security | Infinitum Defense",
         "desc": "Layered security for data centers, utilities, logistics hubs and government-adjacent sites: perimeter patrols, command post staffing and surveillance detection.",
         "h1": "Security for facilities that cannot go down",
         "lede": "Layered security for data centers, utilities, logistics hubs and government-adjacent sites, run with post orders and patrol discipline.",
@@ -301,7 +301,7 @@
       "related": ["armed-security", "physical-protection", "critical-infrastructure-protection"],
       "en": {
         "name": "Tactical Training",
-        "title": "Active-Threat &amp; Tactical Security Training in Washington, D.C. | Infinitum Defense",
+        "title": "Active-Threat &amp; Security Training, DC | Infinitum Defense",
         "desc": "Practical training for staff and security teams: active-threat response drills, tactical first aid and security team readiness. Washington, D.C.",
         "h1": "Tactical training that holds up under pressure",
         "lede": "Practical training that prepares your staff and security teams to act under pressure, from active-threat response to emergency medical care.",
@@ -319,7 +319,7 @@
       },
       "ru": {
         "name": "Тактическая подготовка",
-        "title": "Тактическая подготовка и обучение действиям при угрозе | Infinitum Defense",
+        "title": "Тактическая подготовка и обучение охраны | Infinitum Defense",
         "desc": "Практическое обучение сотрудников и служб безопасности: учения по реагированию на активную угрозу, тактическая первая помощь и готовность охраны.",
         "h1": "Тактическая подготовка, которая работает под давлением",
         "lede": "Практическое обучение, которое готовит ваших сотрудников и службы безопасности действовать под давлением: от реагирования на активную угрозу до экстренной медицинской помощи.",

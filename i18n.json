@@ -2,7 +2,7 @@
   "_comment": "Single source of truth for page copy. 'text' keys replace an element's innerHTML (marked data-i18n in src/index.template.html); 'attr' keys fill attributes; 'meta' fills <head>; 'js' is used by the page script. Run `python build.py` after editing, then deploy.",
   "meta": {
     "title": {
-      "en": "Infinitum Defense | Executive Protection &amp; Security, Washington, D.C.",
+      "en": "Infinitum Defense | Executive Protection &amp; Security in D.C.",
       "ru": "Infinitum Defense | Охрана руководителей и безопасность, Вашингтон"
     },
     "description": {
