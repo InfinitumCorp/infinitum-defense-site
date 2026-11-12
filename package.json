@@ -1,0 +1,14 @@
+{
+  "name": "infinitum-defense-site",
+  "private": true,
+  "type": "module",
+  "description": "Static site for infinitumdefense.com, served by a Cloudflare Worker.",
+  "scripts": {
+    "build": "python build.py",
+    "deploy": "python build.py && cf deploy"
+  },
+  "devDependencies": {
+    "cf": "^1.0.0-beta.28",
+    "wrangler": "^4.159.0"
+  }
+}
