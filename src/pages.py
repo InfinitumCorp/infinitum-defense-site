@@ -7,6 +7,8 @@ import json
 from html import escape, unescape
 
 SITE = "https://infinitumdefense.com"
+PHONE_TEL = "tel:+12028314443"
+PHONE = "(202) 831-4443"
 LANGS = ("en", "ru")
 
 UI = {
@@ -229,6 +231,7 @@ def footer(lang, data):
       <div>
         <a class="mark" href="{home(lang)}"><i class="logo" aria-hidden="true"></i><span class="lockup"><b>INFINITUM</b><small>DEFENSE</small></span></a>
         <p style="color:var(--muted);max-width:34ch;margin:18px 0 0;font-size:14px">{u['foot']}</p>
+        <p style="margin:14px 0 0;font-size:14px"><a class="mono" href="{PHONE_TEL}">{PHONE}</a></p>
       </div>
       <div><h4>{u['services']}</h4><ul>{col(order[:4])}</ul></div>
       <div><h4>&nbsp;</h4><ul>{col(order[4:])}</ul></div>
@@ -290,7 +293,7 @@ def service_page(lang, slug, data, groups):
             {
                 "@type": "Service", "@id": url + "#service", "name": plain(c["name"]),
                 "serviceType": plain(c["name"]), "description": plain(c["lede"]), "url": url,
-                "provider": {"@id": f"{SITE}/#org"},
+                "provider": {"@type": "Organization", "@id": f"{SITE}/#org", "name": "Infinitum Defense", "url": f"{SITE}/", "telephone": "+1-202-831-4443"},
                 "areaServed": [{"@type": "City", "name": "Washington, D.C."}, {"@type": "Country", "name": "United States"}],
                 "hasOfferCatalog": {
                     "@type": "OfferCatalog", "name": plain(c["name"]),
@@ -320,7 +323,7 @@ def service_page(lang, slug, data, groups):
   <h1>{c['h1']}</h1>
   <p class="lede">{c['lede']}</p>
   <div class="ctas"><a class="btn" href="{home(lang)}#contact">{u['book']} <span aria-hidden="true">→</span></a><a class="btn ghost" href="{svc_path(lang)}">{u['all']}</a></div>
-  <div class="facts"><span><i class="dot"></i>{u['open']}</span><span>{u['hq']}</span></div>
+  <div class="facts"><span><i class="dot"></i>{u['open']}</span><span>{u['hq']}</span><a class="mono" href="{PHONE_TEL}">{PHONE}</a></div>
 </div></div></section>
 <section class="band"><div class="wrap">
   <div class="head"><div class="label">{u['includes']}</div><h2>{c['name']}</h2></div>
@@ -380,7 +383,7 @@ def hub_page(lang, data, groups):
   <h1>{h['h1']}</h1>
   <p class="lede">{h['lede']}</p>
   <div class="ctas"><a class="btn" href="{home(lang)}#contact">{u['book']} <span aria-hidden="true">→</span></a></div>
-  <div class="facts"><span><i class="dot"></i>{u['open']}</span><span>{u['hq']}</span></div>
+  <div class="facts"><span><i class="dot"></i>{u['open']}</span><span>{u['hq']}</span><a class="mono" href="{PHONE_TEL}">{PHONE}</a></div>
 </div></div></section>
 <section class="band"><div class="wrap"><ul class="cards">{cards}</ul></div></section>
 {close_band(lang)}</main>

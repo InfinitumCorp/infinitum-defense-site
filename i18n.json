@@ -537,6 +537,10 @@
       "en": "Send the details of your request and our operations desk will respond to schedule your free consultation.",
       "ru": "Отправьте подробности запроса, и наш оперативный центр свяжется с вами, чтобы назначить бесплатную консультацию."
     },
+    "ct_phone": {
+      "en": "Phone",
+      "ru": "Телефон"
+    },
     "ct_hours": {
       "en": "Hours",
       "ru": "Часы работы"
