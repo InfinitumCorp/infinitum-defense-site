@@ -274,6 +274,8 @@ footer .wrap { padding-block: 72px 40px; }
 }
 </style>
 <style>body{margin:0}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+<!-- Cumulus://ID account bar at the right end of the header; under 860px the header row may wrap so it never overflows. -->
+<style>.cumulus-bar{display:inline-flex;align-items:center;flex-shrink:0;max-width:100%}@media (max-width:860px){.nav .wrap{flex-wrap:wrap;height:auto;min-height:64px;gap:10px 20px;padding-block:14px}.nav .cumulus-bar{margin-left:auto}}</style>
 </head>
 <body>
 
@@ -289,6 +291,7 @@ footer .wrap { padding-block: 72px 40px; }
       <a href="#availability">Availability</a>
     </nav>
     <a class="btn" href="#contact"><span>Let's talk</span></a>
+    <div class="cumulus-bar" data-cumulus-bar data-theme="dark"></div>
   </div>
 </header>
 
@@ -737,5 +740,6 @@ footer .wrap { padding-block: 72px 40px; }
 })();
 </script>
 
+<script src="https://id.cumuluscloud.app/id/bar.js" data-client="defense" defer></script>
 </body>
 </html>
