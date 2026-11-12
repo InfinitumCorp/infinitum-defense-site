@@ -1,0 +1,340 @@
+{
+  "_comment": "Content for /services/<slug> and /ru/services/<slug>. Only claims the main site already makes: no invented licences, clients or figures. Run `python build.py` after editing.",
+  "order": ["physical-protection", "executive-protection", "event-security", "armed-security", "secure-transport", "protective-intelligence", "critical-infrastructure-protection", "security-training"],
+  "hub": {
+    "en": {
+      "title": "Security Services in Washington, D.C. | Infinitum Defense",
+      "desc": "Executive protection, event security, armed officers, secure transport, protective intelligence and tactical training from Washington, D.C. Open 24/7.",
+      "h1": "Security services",
+      "lede": "Eight mission sets, planned with your team and staffed around the clock from Washington, D.C. Every engagement starts with a free consultation and can run for a single day or indefinitely."
+    },
+    "ru": {
+      "title": "Услуги безопасности в Вашингтоне | Infinitum Defense",
+      "desc": "Охрана руководителей и мероприятий, вооружённая охрана, безопасная перевозка, аналитика угроз, защита инфраструктуры и тактическая подготовка. Работаем 24/7.",
+      "h1": "Услуги безопасности",
+      "lede": "Восемь направлений, которые мы планируем вместе с вашей командой и обеспечиваем круглосуточно из Вашингтона. Любая работа начинается с бесплатной консультации и может длиться от одного дня до бессрочного контракта."
+    }
+  },
+  "services": {
+    "physical-protection": {
+      "group": "g_protection",
+      "related": ["executive-protection", "critical-infrastructure-protection", "armed-security"],
+      "en": {
+        "name": "Physical Protection",
+        "title": "Security Guard Services in Washington, D.C. | Infinitum Defense",
+        "desc": "Site and perimeter security, access control and threat response for property and people in Washington, D.C. One day or ongoing contracts. Open 24/7, free consultation.",
+        "h1": "Physical protection for property and people",
+        "lede": "Our officers stand on the front line against violent attacks, harassment and physical aggression. We secure your site and the people in it for a single day or on an ongoing contract, staffed around the clock from Washington, D.C.",
+        "includes": [
+          ["Site and perimeter security", "Officers posted at entrances, perimeters and sensitive areas, with post orders written for your site rather than copied from a template."],
+          ["Access control", "Credential checks, visitor management and controlled entry so only the right people reach the right places."],
+          ["Threat deterrence and response", "A visible, professional presence that discourages trouble, and trained officers who act decisively when it happens anyway."]
+        ],
+        "for": ["Offices and headquarters that have received threats", "Residences of executives and public figures", "Retail and hospitality sites dealing with harassment or aggression", "Organisations needing short-notice cover after an incident"],
+        "faq": [
+          ["How quickly can you put officers on site?", "Our operations desk is open 24 hours a day. After a short consultation about the site and the threat, we agree staffing and start dates with you; urgent requests are handled the same way, just faster."],
+          ["Do you offer short-term security?", "Yes. Contracts run from a single day to indefinitely, so you can cover one event, a tense week or a permanent post with the same team."],
+          ["Will we get a written security plan?", "Yes. Every engagement includes a written plan with staffing, posts and procedures agreed with your team before officers deploy."]
+        ]
+      },
+      "ru": {
+        "name": "Физическая охрана",
+        "title": "Физическая охрана объектов и людей в Вашингтоне | Infinitum Defense",
+        "desc": "Охрана объекта и периметра, контроль доступа и реагирование на угрозы в Вашингтоне. Контракты от одного дня. Работаем 24/7, бесплатная консультация.",
+        "h1": "Физическая охрана объектов и людей",
+        "lede": "Наши сотрудники стоят на передовой против нападений, преследования и физической агрессии. Мы обеспечим безопасность вашего объекта и людей на нём на один день или по долгосрочному контракту, круглосуточно из Вашингтона.",
+        "includes": [
+          ["Охрана объекта и периметра", "Посты на входах, по периметру и в уязвимых зонах. Инструкции постов пишутся под ваш объект, а не копируются из шаблона."],
+          ["Контроль доступа", "Проверка пропусков, работа с посетителями и контролируемый вход, чтобы нужные люди попадали только туда, куда им положено."],
+          ["Сдерживание угроз и реагирование", "Заметное профессиональное присутствие, которое отпугивает нарушителей, и подготовленные сотрудники, которые действуют решительно, если инцидент всё же произошёл."]
+        ],
+        "for": ["Офисы и штаб-квартиры, получившие угрозы", "Резиденции руководителей и публичных лиц", "Торговые и гостиничные объекты, столкнувшиеся с агрессией", "Организации, которым срочно нужна охрана после инцидента"],
+        "faq": [
+          ["Как быстро вы можете выставить охрану?", "Наш оперативный центр работает круглосуточно. После короткой консультации об объекте и угрозе мы согласуем с вами состав и дату начала; срочные запросы решаются так же, только быстрее."],
+          ["Вы берёте краткосрочные заказы?", "Да. Контракты длятся от одного дня до бессрочного, поэтому одна и та же команда может закрыть одно мероприятие, напряжённую неделю или постоянный пост."],
+          ["Мы получим письменный план безопасности?", "Да. Любая работа включает письменный план с составом персонала, постами и процедурами, согласованный с вашей командой до выхода сотрудников на объект."]
+        ]
+      }
+    },
+    "executive-protection": {
+      "group": "g_protection",
+      "related": ["secure-transport", "protective-intelligence", "event-security"],
+      "en": {
+        "name": "Executive Protection",
+        "title": "Executive Protection in Washington, D.C. | Infinitum Defense",
+        "desc": "Close protection details, travel and movement planning, and risk assessment for executives, principals and their families. Washington, D.C., 24/7. Free consultation.",
+        "h1": "Executive protection that doesn't get in the way",
+        "lede": "Your executives are your most valuable people and often your most visible targets. We plan their movements, assess the risk around them and keep principals protected without interrupting the work they are there to do.",
+        "includes": [
+          ["Close protection details", "Protection officers assigned to the principal for the day, the trip or the long term, sized to the actual risk rather than for show."],
+          ["Travel and movement planning", "Routes, venues, arrivals and departures planned in advance, with alternates ready before they are needed."],
+          ["Risk and threat assessment", "A clear picture of who and what could cause harm, so the protection matches the threat."]
+        ],
+        "for": ["CEOs and board members with a public profile", "Family offices and high-net-worth families", "Executives travelling to unfamiliar or higher-risk locations", "Leaders facing threats after a public decision or announcement"],
+        "faq": [
+          ["What is the difference between executive protection and a bodyguard?", "A bodyguard reacts. Executive protection plans: routes, venues, schedules and threat intelligence are worked out in advance so most problems never reach the principal."],
+          ["Can you protect executives when they travel?", "Yes. Travel and movement planning is part of the service, and it pairs with our secure transport and protective intelligence teams."],
+          ["Will protection disrupt the principal's work?", "It shouldn't. We plan around the principal's schedule and keep the detail as discreet as the risk allows."]
+        ]
+      },
+      "ru": {
+        "name": "Охрана руководителей",
+        "title": "Охрана руководителей и личная охрана в Вашингтоне | Infinitum Defense",
+        "desc": "Личная охрана, планирование поездок и оценка рисков для руководителей, первых лиц и их семей. Вашингтон, 24/7. Бесплатная консультация.",
+        "h1": "Охрана руководителей, которая не мешает работе",
+        "lede": "Ваши руководители — самые ценные люди компании и зачастую самые заметные цели. Мы планируем их передвижения, оцениваем риски вокруг них и защищаем первых лиц, не мешая работе, ради которой они приехали.",
+        "includes": [
+          ["Группы личной охраны", "Сотрудники охраны, закреплённые за первым лицом на день, поездку или долгий срок. Состав группы соответствует реальному риску, а не делается напоказ."],
+          ["Планирование поездок и передвижений", "Маршруты, площадки, прибытие и отъезд продумываются заранее, а запасные варианты готовы до того, как понадобятся."],
+          ["Оценка рисков и угроз", "Чёткая картина того, кто и что может причинить вред, чтобы защита соответствовала угрозе."]
+        ],
+        "for": ["Генеральные директора и члены советов директоров с публичным профилем", "Семейные офисы и состоятельные семьи", "Руководители, которые едут в незнакомые или рискованные места", "Лидеры, получающие угрозы после публичных решений"],
+        "faq": [
+          ["Чем охрана руководителей отличается от телохранителя?", "Телохранитель реагирует. Охрана руководителей планирует: маршруты, площадки, расписание и данные об угрозах прорабатываются заранее, поэтому большинство проблем не доходит до первого лица."],
+          ["Вы сопровождаете руководителей в поездках?", "Да. Планирование поездок входит в услугу и работает вместе с нашими командами безопасной перевозки и аналитики угроз."],
+          ["Не будет ли охрана мешать работе?", "Не должна. Мы подстраиваемся под расписание первого лица и держим группу настолько незаметной, насколько позволяет уровень риска."]
+        ]
+      }
+    },
+    "event-security": {
+      "group": "g_protection",
+      "related": ["physical-protection", "executive-protection", "armed-security"],
+      "en": {
+        "name": "Event Security",
+        "title": "Event Security Company in Washington, DC | Infinitum Defense",
+        "desc": "Guest screening, credentialing, crowd management and venue coordination for private functions and large events in Washington, D.C. Open 24/7, free consultation.",
+        "h1": "Event security from arrival to last departure",
+        "lede": "We act as your right arm for every event need. Our officers watch every guest and every entrance, so attendees feel welcome, organisers can focus on the programme, and large gatherings run smoothly to the last departure.",
+        "includes": [
+          ["Guest screening and credentialing", "Guest lists, badges and entry checks that keep uninvited people out without turning the door into a queue."],
+          ["Crowd management", "Officers positioned to keep movement safe and calm at entrances, stages and exits, and to step in early when tension builds."],
+          ["Venue coordination", "One plan agreed with the venue, your organisers and any other contractors, so everyone knows who does what."]
+        ],
+        "for": ["Galas, fundraisers and private functions", "Conferences, summits and product launches", "Events with high-profile speakers or guests", "Gatherings that have attracted protest or online threats"],
+        "faq": [
+          ["How many officers does an event need?", "It depends on the venue, the guest list and the threat picture. We assess all three in the consultation and propose staffing in the written plan."],
+          ["Can you work with our venue's in-house security?", "Yes. Venue coordination is part of the service; we agree roles with in-house teams so coverage has no gaps or overlaps."],
+          ["Do you handle VIP guests at events?", "Yes. Event security pairs with executive protection for speakers and guests who need a dedicated detail."]
+        ]
+      },
+      "ru": {
+        "name": "Охрана мероприятий",
+        "title": "Охрана мероприятий в Вашингтоне | Infinitum Defense",
+        "desc": "Проверка и аккредитация гостей, управление потоками людей и координация с площадкой на частных и крупных мероприятиях в Вашингтоне. Работаем 24/7.",
+        "h1": "Охрана мероприятий от прибытия до отъезда последнего гостя",
+        "lede": "Мы станем вашей правой рукой на любом мероприятии. Наши сотрудники следят за каждым гостем и каждым входом, чтобы гости чувствовали себя желанными, организаторы могли сосредоточиться на программе, а крупные события проходили гладко до самого конца.",
+        "includes": [
+          ["Проверка и аккредитация гостей", "Списки гостей, бейджи и проверка на входе, которые не пускают посторонних и не превращают вход в очередь."],
+          ["Управление потоками людей", "Сотрудники на входах, у сцены и на выходах обеспечивают спокойное и безопасное движение и вмешиваются заранее, если нарастает напряжение."],
+          ["Координация с площадкой", "Единый план, согласованный с площадкой, организаторами и другими подрядчиками, чтобы каждый знал свою роль."]
+        ],
+        "for": ["Гала-вечера, благотворительные и частные приёмы", "Конференции, саммиты и презентации", "Мероприятия с известными спикерами и гостями", "События, вызвавшие протесты или угрозы в сети"],
+        "faq": [
+          ["Сколько охранников нужно на мероприятие?", "Это зависит от площадки, списка гостей и картины угроз. Мы оцениваем всё это на консультации и предлагаем состав в письменном плане."],
+          ["Вы можете работать вместе со службой безопасности площадки?", "Да. Координация с площадкой входит в услугу: мы распределяем роли со штатной охраной, чтобы не было пробелов и дублирования."],
+          ["Вы охраняете VIP-гостей на мероприятиях?", "Да. Охрана мероприятий сочетается с охраной руководителей для спикеров и гостей, которым нужна отдельная группа."]
+        ]
+      }
+    },
+    "armed-security": {
+      "group": "g_tactical",
+      "related": ["physical-protection", "critical-infrastructure-protection", "security-training"],
+      "en": {
+        "name": "Armed Tactical Response",
+        "title": "Armed Security Officers in Washington, DC | Infinitum Defense",
+        "desc": "Licensed armed officers with military and law-enforcement backgrounds, rapid response teams and lockdown support for high-threat situations. Washington, D.C., 24/7.",
+        "h1": "Armed officers for high-threat situations",
+        "lede": "Licensed armed officers with military and law-enforcement backgrounds, ready to respond when the threat is serious and to hold a position until the area is secure.",
+        "includes": [
+          ["Armed security officers", "Licensed armed officers posted where the risk justifies it, under clear rules agreed with you in advance."],
+          ["Rapid response teams", "A team that can move to an incident quickly and take control of a developing situation."],
+          ["Lockdown and evacuation support", "Officers who know your lockdown and evacuation procedures and help carry them out under pressure."]
+        ],
+        "for": ["Sites that have received credible threats of violence", "High-value locations where an unarmed post is not enough", "Organisations preparing for a contentious event or decision", "Facilities that need armed cover while other measures are put in place"],
+        "faq": [
+          ["Are your armed officers licensed?", "Yes. Our armed officers are licensed and come from military and law-enforcement backgrounds."],
+          ["When do we need armed rather than unarmed security?", "When the realistic threat includes serious violence. We assess the threat with you in the consultation and recommend armed cover only where it is justified."],
+          ["Can armed officers work alongside our existing guards?", "Yes. We agree roles and procedures with your existing team in the written security plan."]
+        ]
+      },
+      "ru": {
+        "name": "Вооружённое тактическое реагирование",
+        "title": "Вооружённая охрана в Вашингтоне | Infinitum Defense",
+        "desc": "Лицензированные вооружённые сотрудники с опытом службы в армии и полиции, группы быстрого реагирования и поддержка при блокировке. Вашингтон, 24/7.",
+        "h1": "Вооружённая охрана для ситуаций высокой угрозы",
+        "lede": "Лицензированные вооружённые сотрудники с опытом службы в армии и правоохранительных органах, готовые реагировать на серьёзную угрозу и удерживать позицию, пока территория не будет в безопасности.",
+        "includes": [
+          ["Вооружённая охрана", "Лицензированные вооружённые сотрудники там, где это оправдано риском, по чётким правилам, заранее согласованным с вами."],
+          ["Группы быстрого реагирования", "Команда, которая быстро выдвигается к месту инцидента и берёт развивающуюся ситуацию под контроль."],
+          ["Поддержка при блокировке и эвакуации", "Сотрудники, которые знают ваши процедуры блокировки и эвакуации и помогают выполнять их под давлением."]
+        ],
+        "for": ["Объекты, получившие реальные угрозы насилия", "Ценные объекты, где невооружённого поста недостаточно", "Организации перед спорным мероприятием или решением", "Объекты, которым нужна вооружённая охрана, пока вводятся другие меры"],
+        "faq": [
+          ["У ваших вооружённых сотрудников есть лицензии?", "Да. Наши вооружённые сотрудники лицензированы и имеют опыт службы в армии и правоохранительных органах."],
+          ["Когда нужна вооружённая, а не обычная охрана?", "Когда реальная угроза включает серьёзное насилие. Мы оцениваем угрозу вместе с вами на консультации и рекомендуем вооружённую охрану только там, где она оправдана."],
+          ["Могут ли вооружённые сотрудники работать с нашей охраной?", "Да. Роли и процедуры с вашей командой мы согласуем в письменном плане безопасности."]
+        ]
+      }
+    },
+    "secure-transport": {
+      "group": "g_tactical",
+      "related": ["executive-protection", "protective-intelligence", "armed-security"],
+      "en": {
+        "name": "Secure Transport &amp; Convoy",
+        "title": "Secure Transport &amp; Armored Escort, DC | Infinitum Defense",
+        "desc": "Planned, escorted movement for people and high-value assets: armored and escort vehicles, route reconnaissance and advance teams. Washington, D.C., 24/7.",
+        "h1": "Secure transport for people and high-value assets",
+        "lede": "Planned, escorted movement from door to door. Routes are surveyed in advance, with alternates and safe havens mapped before the vehicles roll.",
+        "includes": [
+          ["Armored and escort vehicles", "Vehicles and escorts matched to the risk of the journey and the people or assets being moved."],
+          ["Route reconnaissance", "Primary and alternate routes surveyed in advance, with choke points and safe havens identified."],
+          ["Advance team coordination", "An advance team at the destination before arrival, so the most exposed moments of a journey are covered."]
+        ],
+        "for": ["Executives and delegations moving between meetings", "Transfers between airports, hotels and venues", "Movement of high-value or sensitive assets", "Journeys into areas with elevated risk"],
+        "faq": [
+          ["Do you provide armored vehicles?", "Armored and escort vehicles are part of the service. We match the vehicle to the risk of the journey in the security plan."],
+          ["Can you handle airport arrivals and departures?", "Yes. Airport transfers are among the most exposed parts of a trip, and we plan them with an advance team."],
+          ["Can transport be combined with close protection?", "Yes. Secure transport is often part of an executive protection detail, planned as one operation."]
+        ]
+      },
+      "ru": {
+        "name": "Безопасная перевозка и сопровождение",
+        "title": "Безопасная перевозка и сопровождение в Вашингтоне | Infinitum Defense",
+        "desc": "Спланированное перемещение людей и ценных активов с сопровождением: бронированные автомобили, разведка маршрута и передовые группы. Вашингтон, 24/7.",
+        "h1": "Безопасная перевозка людей и ценных активов",
+        "lede": "Спланированное перемещение под сопровождением от двери до двери. Маршруты обследуются заранее, а запасные пути и безопасные укрытия намечаются до начала движения.",
+        "includes": [
+          ["Бронированные автомобили и машины сопровождения", "Транспорт и сопровождение подбираются под риск поездки и под людей или грузы, которые нужно перевезти."],
+          ["Разведка маршрута", "Основной и запасные маршруты обследуются заранее, узкие места и безопасные укрытия отмечаются на карте."],
+          ["Координация с передовой группой", "Передовая группа прибывает на место раньше вас, чтобы самые уязвимые моменты поездки были под контролем."]
+        ],
+        "for": ["Руководители и делегации, переезжающие между встречами", "Трансферы между аэропортами, отелями и площадками", "Перевозка ценных или конфиденциальных грузов", "Поездки в районы с повышенным риском"],
+        "faq": [
+          ["Вы предоставляете бронированные автомобили?", "Бронированные автомобили и машины сопровождения входят в услугу. Транспорт подбирается под риск поездки в плане безопасности."],
+          ["Вы организуете встречу и проводы в аэропорту?", "Да. Трансферы из аэропорта и в аэропорт — одни из самых уязвимых моментов поездки, и мы планируем их с передовой группой."],
+          ["Можно совместить перевозку с личной охраной?", "Да. Безопасная перевозка часто входит в охрану руководителя и планируется как единая операция."]
+        ]
+      }
+    },
+    "protective-intelligence": {
+      "group": "g_intel",
+      "related": ["executive-protection", "critical-infrastructure-protection", "secure-transport"],
+      "en": {
+        "name": "Protective Intelligence",
+        "title": "Protective Intelligence &amp; Threat Assessment | Infinitum Defense",
+        "desc": "Threat and vulnerability assessments, open-source monitoring and pre-deployment briefings that identify threats before they reach your door. Washington, D.C.",
+        "h1": "Protective intelligence: see the threat before it arrives",
+        "lede": "We identify threats before they reach your door. Our analysts monitor open sources, assess individuals of concern and brief your team on what the risk picture looks like this week.",
+        "includes": [
+          ["Threat and vulnerability assessments", "A structured look at who might cause harm, how, and where your people, sites and routines are exposed."],
+          ["Open-source monitoring", "Ongoing monitoring of public sources for threats, hostile attention and early warning signs."],
+          ["Pre-deployment briefings", "Clear briefings before a trip, event or deployment, so your team knows what to expect on the ground."]
+        ],
+        "for": ["Executives and public figures attracting hostile attention", "Organisations that have received threatening messages", "Teams travelling to unfamiliar locations", "Security teams that need intelligence to plan their posts"],
+        "faq": [
+          ["What is protective intelligence?", "It is intelligence work focused on protecting specific people and places: finding and assessing threats early so protection can be planned around them."],
+          ["What does a threat assessment include?", "An assessment of individuals or groups of concern, the likely ways they could cause harm, and the vulnerabilities in your people, sites and routines."],
+          ["How often will we be briefed?", "Briefings are agreed with you. Ongoing clients typically get a regular picture of the week's risk, plus briefings before trips and events."]
+        ]
+      },
+      "ru": {
+        "name": "Аналитика угроз",
+        "title": "Аналитика угроз и оценка рисков безопасности | Infinitum Defense",
+        "desc": "Оценка угроз и уязвимостей, мониторинг открытых источников и брифинги перед выездом, чтобы выявлять угрозы до того, как они окажутся у вашей двери.",
+        "h1": "Аналитика угроз: увидеть угрозу до того, как она придёт",
+        "lede": "Мы выявляем угрозы до того, как они окажутся у вашей двери. Наши аналитики отслеживают открытые источники, оценивают лиц, вызывающих опасения, и рассказывают вашей команде, как выглядит картина рисков на этой неделе.",
+        "includes": [
+          ["Оценка угроз и уязвимостей", "Системный анализ того, кто может причинить вред, каким образом и где уязвимы ваши люди, объекты и распорядок."],
+          ["Мониторинг открытых источников", "Постоянное наблюдение за открытыми источниками на предмет угроз, враждебного внимания и ранних тревожных сигналов."],
+          ["Брифинги перед выездом", "Понятные брифинги перед поездкой, мероприятием или выездом, чтобы ваша команда знала, чего ждать на месте."]
+        ],
+        "for": ["Руководители и публичные лица, привлекающие враждебное внимание", "Организации, получившие угрозы", "Команды, выезжающие в незнакомые места", "Службы безопасности, которым нужны данные для планирования постов"],
+        "faq": [
+          ["Что такое аналитика угроз?", "Это аналитическая работа, нацеленная на защиту конкретных людей и мест: угрозы выявляются и оцениваются заранее, чтобы защиту можно было спланировать с их учётом."],
+          ["Что входит в оценку угроз?", "Анализ лиц или групп, вызывающих опасения, вероятных способов причинить вред и уязвимостей ваших людей, объектов и распорядка."],
+          ["Как часто вы проводите брифинги?", "Частота согласуется с вами. Постоянные клиенты обычно получают регулярную картину рисков на неделю, а также брифинги перед поездками и мероприятиями."]
+        ]
+      }
+    },
+    "critical-infrastructure-protection": {
+      "group": "g_infra",
+      "related": ["physical-protection", "armed-security", "protective-intelligence"],
+      "en": {
+        "name": "Critical Infrastructure Protection",
+        "title": "Critical Infrastructure Security | Infinitum Defense",
+        "desc": "Layered security for data centers, utilities, logistics hubs and government-adjacent sites: perimeter patrols, command post staffing and surveillance detection.",
+        "h1": "Security for facilities that cannot go down",
+        "lede": "Layered security for data centers, utilities, logistics hubs and government-adjacent sites, run with post orders and patrol discipline.",
+        "includes": [
+          ["Perimeter and patrol operations", "Fixed posts and patrols that cover the whole perimeter on a schedule an observer cannot easily predict."],
+          ["Command post staffing", "Trained staff in your security operations or command post, monitoring, coordinating and escalating."],
+          ["Surveillance detection", "Officers trained to notice hostile reconnaissance, the planning step that comes before most attacks."]
+        ],
+        "for": ["Data centers and network facilities", "Utilities and energy sites", "Logistics hubs and warehouses", "Government-adjacent and contractor facilities"],
+        "faq": [
+          ["What is surveillance detection?", "Watching for people who are watching you. Most attacks are preceded by reconnaissance, and spotting it gives you time to act."],
+          ["Can you staff our security operations center?", "Yes. Command post staffing covers monitoring, coordination and escalation from your control room."],
+          ["How do you keep long-term posts sharp?", "With written post orders, patrol discipline and regular review of the plan as conditions at the site change."]
+        ]
+      },
+      "ru": {
+        "name": "Защита критической инфраструктуры",
+        "title": "Охрана объектов критической инфраструктуры | Infinitum Defense",
+        "desc": "Многоуровневая защита центров обработки данных, коммунальных предприятий, логистических узлов и объектов госсектора: патрулирование, командный пункт, выявление слежки.",
+        "h1": "Охрана объектов, которые не могут останавливаться",
+        "lede": "Многоуровневая защита центров обработки данных, коммунальных предприятий, логистических узлов и объектов, связанных с госсектором. Работаем по инструкциям постов и с дисциплиной патрулирования.",
+        "includes": [
+          ["Охрана периметра и патрулирование", "Стационарные посты и патрули, которые охватывают весь периметр по графику, который сложно предугадать со стороны."],
+          ["Работа командного пункта", "Подготовленный персонал в вашем центре управления безопасностью: наблюдение, координация и эскалация."],
+          ["Выявление слежки", "Сотрудники, обученные замечать враждебную разведку — подготовительный этап большинства нападений."]
+        ],
+        "for": ["Центры обработки данных и сетевые объекты", "Коммунальные и энергетические объекты", "Логистические узлы и склады", "Объекты госсектора и подрядчиков"],
+        "faq": [
+          ["Что такое выявление слежки?", "Это наблюдение за теми, кто наблюдает за вами. Большинству нападений предшествует разведка, и её обнаружение даёт время действовать."],
+          ["Вы можете укомплектовать наш центр управления безопасностью?", "Да. Работа командного пункта включает наблюдение, координацию и эскалацию из вашей диспетчерской."],
+          ["Как вы поддерживаете бдительность на долгосрочных постах?", "Письменными инструкциями постов, дисциплиной патрулирования и регулярным пересмотром плана по мере изменения обстановки на объекте."]
+        ]
+      }
+    },
+    "security-training": {
+      "group": "g_readiness",
+      "related": ["armed-security", "physical-protection", "critical-infrastructure-protection"],
+      "en": {
+        "name": "Tactical Training",
+        "title": "Active-Threat &amp; Security Training, DC | Infinitum Defense",
+        "desc": "Practical training for staff and security teams: active-threat response drills, tactical first aid and security team readiness. Washington, D.C.",
+        "h1": "Tactical training that holds up under pressure",
+        "lede": "Practical training that prepares your staff and security teams to act under pressure, from active-threat response to emergency medical care.",
+        "includes": [
+          ["Active-threat response drills", "Realistic drills that teach staff what to do in the first minutes of an active threat, when it matters most."],
+          ["Tactical first aid", "Hands-on emergency medical skills for serious injuries, taught for the conditions people will actually face."],
+          ["Security team readiness", "Training that sharpens your own security team's procedures, communication and decision-making."]
+        ],
+        "for": ["Offices and campuses preparing staff for emergencies", "In-house security teams", "Event and venue staff", "Organisations that have updated their emergency plans"],
+        "faq": [
+          ["Who is the training for?", "Both general staff and security teams. Active-threat drills and first aid suit everyone; readiness training is aimed at security staff."],
+          ["Is the training practical or classroom-based?", "Practical. The aim is that people can act under pressure, so drills and hands-on practice come first."],
+          ["Can training be tailored to our site?", "Yes. We build drills around your building, your procedures and the threats that are realistic for you."]
+        ]
+      },
+      "ru": {
+        "name": "Тактическая подготовка",
+        "title": "Тактическая подготовка и обучение охраны | Infinitum Defense",
+        "desc": "Практическое обучение сотрудников и служб безопасности: учения по реагированию на активную угрозу, тактическая первая помощь и готовность охраны.",
+        "h1": "Тактическая подготовка, которая работает под давлением",
+        "lede": "Практическое обучение, которое готовит ваших сотрудников и службы безопасности действовать под давлением: от реагирования на активную угрозу до экстренной медицинской помощи.",
+        "includes": [
+          ["Учения по реагированию на активную угрозу", "Реалистичные учения о том, что делать в первые минуты активной угрозы, когда это важнее всего."],
+          ["Тактическая первая помощь", "Практические навыки экстренной помощи при тяжёлых травмах в тех условиях, с которыми люди столкнутся на самом деле."],
+          ["Готовность службы безопасности", "Обучение, которое оттачивает процедуры, связь и принятие решений вашей собственной службы безопасности."]
+        ],
+        "for": ["Офисы и кампусы, готовящие сотрудников к чрезвычайным ситуациям", "Собственные службы безопасности", "Персонал площадок и мероприятий", "Организации, обновившие планы действий в ЧС"],
+        "faq": [
+          ["Для кого это обучение?", "Для обычных сотрудников и для служб безопасности. Учения при активной угрозе и первая помощь подходят всем; подготовка готовности рассчитана на охрану."],
+          ["Обучение практическое или теоретическое?", "Практическое. Цель — чтобы люди могли действовать под давлением, поэтому на первом месте учения и отработка."],
+          ["Можно адаптировать обучение под наш объект?", "Да. Мы строим учения вокруг вашего здания, ваших процедур и реальных для вас угроз."]
+        ]
+      }
+    }
+  }
+}
