@@ -150,6 +150,8 @@ def llms(d, data):
         "Contracts run from a single day to indefinitely and start with a free consultation. "
         "The site is available in English and Russian.",
         "",
+        "Phone (24/7): +1 202-831-4443",
+        "",
         "## Services",
         "",
     ]
