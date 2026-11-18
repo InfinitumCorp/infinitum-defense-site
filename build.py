@@ -168,7 +168,7 @@ def llms(d, data):
         "## Pages",
         "",
         f"- [Home]({pages.SITE}/): overview, services, approach and contact form",
-        f"- [Services]({pages.SITE}/services): all eight services",
+        f"- [Services]({pages.SITE}/services): all nine services",
         f"- [Russian version]({pages.SITE}/ru): the whole site in Russian",
         "",
     ]

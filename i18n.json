@@ -107,6 +107,10 @@
       "en": "/services/security-training",
       "ru": "/ru/services/security-training"
     },
+    "u_s9": {
+      "en": "/services/maritime-security",
+      "ru": "/ru/services/maritime-security"
+    },
     "u_hub": {
       "en": "/services",
       "ru": "/ru/services"
@@ -190,8 +194,8 @@
       "ru": "Наши услуги"
     },
     "svc_h2": {
-      "en": "Eight mission sets. One accountable team.",
-      "ru": "Восемь направлений. Одна ответственная команда."
+      "en": "Nine mission sets. One accountable team.",
+      "ru": "Девять направлений. Одна ответственная команда."
     },
     "svc_p": {
       "en": "Choose a service to see what our officers do on the ground.",
@@ -212,6 +216,10 @@
     "g_readiness": {
       "en": "Readiness",
       "ru": "Подготовка"
+    },
+    "g_maritime": {
+      "en": "Maritime",
+      "ru": "Морская охрана"
     },
     "g_intel": {
       "en": "Intelligence",
@@ -264,6 +272,14 @@
     "s9": {
       "en": "Security consulting",
       "ru": "Консалтинг по безопасности"
+    },
+    "s9s": {
+      "en": "Maritime Security",
+      "ru": "Морская безопасность"
+    },
+    "s9m": {
+      "en": "Maritime Security &amp; Anti-Piracy",
+      "ru": "Морская безопасность и защита от пиратов"
     },
     "p1": {
       "en": "Our crew stands on the front line against violent attacks, harassment and physical aggression. We secure your property and people for a single day or on an ongoing contract.",
@@ -424,6 +440,26 @@
     "p8btn": {
       "en": "Book Tactical Training",
       "ru": "Заказать тактическую подготовку"
+    },
+    "p9": {
+      "en": "Anti-piracy protection for ships and crews. We assess each voyage, harden the vessel, drill the crew and put security teams aboard for the transit through high-risk waters.",
+      "ru": "Защита судов и экипажей от пиратов. Мы оцениваем каждый рейс, готовим судно, проводим учения экипажа и размещаем охрану на борту на время перехода через опасные воды."
+    },
+    "p9a": {
+      "en": "<span>A</span>Voyage threat assessment",
+      "ru": "<span>A</span>Оценка угроз на маршруте"
+    },
+    "p9b": {
+      "en": "<span>B</span>Embarked security teams",
+      "ru": "<span>B</span>Охрана на борту"
+    },
+    "p9c": {
+      "en": "<span>C</span>Vessel hardening and crew drills",
+      "ru": "<span>C</span>Подготовка судна и учения экипажа"
+    },
+    "p9btn": {
+      "en": "Book Maritime Security",
+      "ru": "Заказать морскую охрану"
     },
     "about_label": {
       "en": "About Infinitum Defense",
@@ -622,8 +658,8 @@
       "ru": "Какие услуги безопасности предоставляет Infinitum Defense?"
     },
     "fa1": {
-      "en": "Physical protection, executive protection, event security, armed tactical response, secure transport, protective intelligence, critical infrastructure protection and tactical training, plus security consulting.",
-      "ru": "Физическая охрана, охрана руководителей, охрана мероприятий, вооружённое тактическое реагирование, безопасная перевозка, аналитика угроз, защита критической инфраструктуры и тактическая подготовка, а также консалтинг по безопасности."
+      "en": "Physical protection, executive protection, event security, armed tactical response, secure transport, protective intelligence, critical infrastructure protection, maritime security and anti-piracy, and tactical training, plus security consulting.",
+      "ru": "Физическая охрана, охрана руководителей, охрана мероприятий, вооружённое тактическое реагирование, безопасная перевозка, аналитика угроз, защита критической инфраструктуры, морская безопасность и защита от пиратов, а также тактическая подготовка и консалтинг по безопасности."
     },
     "fq2": {
       "en": "Where are you based?",

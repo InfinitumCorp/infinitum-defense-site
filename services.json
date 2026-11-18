@@ -1,18 +1,18 @@
 {
   "_comment": "Content for /services/<slug> and /ru/services/<slug>. Only claims the main site already makes: no invented licences, clients or figures. Run `python build.py` after editing.",
-  "order": ["physical-protection", "executive-protection", "event-security", "armed-security", "secure-transport", "protective-intelligence", "critical-infrastructure-protection", "security-training"],
+  "order": ["physical-protection", "executive-protection", "event-security", "armed-security", "secure-transport", "protective-intelligence", "critical-infrastructure-protection", "security-training", "maritime-security"],
   "hub": {
     "en": {
       "title": "Security Services in Washington, D.C. | Infinitum Defense",
       "desc": "Executive protection, event security, armed officers, secure transport, protective intelligence and tactical training from Washington, D.C. Open 24/7.",
       "h1": "Security services",
-      "lede": "Eight mission sets, planned with your team and staffed around the clock from Washington, D.C. Every engagement starts with a free consultation and can run for a single day or indefinitely."
+      "lede": "Nine mission sets, planned with your team and staffed around the clock from Washington, D.C. Every engagement starts with a free consultation and can run for a single day or indefinitely."
     },
     "ru": {
       "title": "Услуги безопасности в Вашингтоне | Infinitum Defense",
       "desc": "Охрана руководителей и мероприятий, вооружённая охрана, безопасная перевозка, аналитика угроз, защита инфраструктуры и тактическая подготовка. Работаем 24/7.",
       "h1": "Услуги безопасности",
-      "lede": "Восемь направлений, которые мы планируем вместе с вашей командой и обеспечиваем круглосуточно из Вашингтона. Любая работа начинается с бесплатной консультации и может длиться от одного дня до бессрочного контракта."
+      "lede": "Девять направлений, которые мы планируем вместе с вашей командой и обеспечиваем круглосуточно из Вашингтона. Любая работа начинается с бесплатной консультации и может длиться от одного дня до бессрочного контракта."
     }
   },
   "services": {
@@ -333,6 +333,96 @@
           ["Для кого это обучение?", "Для обычных сотрудников и для служб безопасности. Учения при активной угрозе и первая помощь подходят всем; подготовка готовности рассчитана на охрану."],
           ["Обучение практическое или теоретическое?", "Практическое. Цель — чтобы люди могли действовать под давлением, поэтому на первом месте учения и отработка."],
           ["Можно адаптировать обучение под наш объект?", "Да. Мы строим учения вокруг вашего здания, ваших процедур и реальных для вас угроз."]
+        ]
+      }
+    },
+    "maritime-security": {
+      "group": "g_maritime",
+      "related": [
+        "secure-transport",
+        "protective-intelligence",
+        "armed-security"
+      ],
+      "en": {
+        "name": "Maritime Security &amp; Anti-Piracy",
+        "title": "Maritime Security &amp; Anti-Piracy | Infinitum Defense",
+        "desc": "Anti-piracy protection for ships and crews: voyage risk assessments, embarked security teams, vessel hardening and crew drills for high-risk waters. 24/7.",
+        "h1": "Anti-piracy protection for ships and crews",
+        "lede": "Ships are most exposed in high-risk waters, at anchor and in port. We assess each voyage, harden the vessel, drill the crew and put security teams aboard for the transit.",
+        "includes": [
+          [
+            "Voyage threat assessment",
+            "Route, waters and port risks reviewed before sailing, with a written plan for every high-risk leg of the voyage."
+          ],
+          [
+            "Embarked security teams",
+            "Experienced security officers aboard for the transit, armed or unarmed as the flag state, route and ports allow."
+          ],
+          [
+            "Vessel hardening and crew drills",
+            "Access points and the citadel prepared, watch routines set, and the crew drilled on what to do if an attack begins."
+          ]
+        ],
+        "for": [
+          "Ship owners and operators",
+          "Charterers and cargo interests",
+          "Private yachts and their owners",
+          "Vessels transiting high-risk waters"
+        ],
+        "faq": [
+          [
+            "Where do you provide anti-piracy protection?",
+            "On voyages through waters with an elevated risk of piracy or armed robbery. We plan from Washington, D.C. and join the vessel where the route requires."
+          ],
+          [
+            "Are your security teams armed?",
+            "That depends on the flag state, the route and the ports of call. The security plan sets out what is permitted and what we recommend before the voyage begins."
+          ],
+          [
+            "Can you protect a private yacht?",
+            "Yes. Yachts get the same voyage assessment, crew briefing and on-board security as commercial vessels, scaled to the trip."
+          ]
+        ]
+      },
+      "ru": {
+        "name": "Морская безопасность и защита от пиратов",
+        "title": "Защита судов от пиратов | Infinitum Defense",
+        "desc": "Защита судов и экипажей от пиратов: оценка рисков рейса, охрана на борту, подготовка судна и учения экипажа в опасных водах. Работаем 24/7.",
+        "h1": "Защита судов и экипажей от пиратов",
+        "lede": "Суда наиболее уязвимы в опасных водах, на якорной стоянке и в порту. Мы оцениваем каждый рейс, готовим судно, проводим учения экипажа и размещаем охрану на борту на время перехода.",
+        "includes": [
+          [
+            "Оценка угроз на маршруте",
+            "Риски маршрута, акватории и портов изучаются до выхода в море, и для каждого опасного участка составляется письменный план."
+          ],
+          [
+            "Охрана на борту",
+            "Опытные сотрудники охраны находятся на борту на время перехода — с оружием или без, в зависимости от правил государства флага, маршрута и портов."
+          ],
+          [
+            "Подготовка судна и учения экипажа",
+            "Подготовка точек доступа и цитадели, порядок вахт и отработка действий экипажа на случай нападения."
+          ]
+        ],
+        "for": [
+          "Судовладельцы и операторы судов",
+          "Фрахтователи и владельцы грузов",
+          "Частные яхты и их владельцы",
+          "Суда, проходящие через опасные воды"
+        ],
+        "faq": [
+          [
+            "Где вы обеспечиваете защиту от пиратов?",
+            "В рейсах через воды с повышенным риском пиратства и вооружённого грабежа. Мы планируем работу из Вашингтона и присоединяемся к судну там, где этого требует маршрут."
+          ],
+          [
+            "Ваша охрана вооружена?",
+            "Это зависит от государства флага, маршрута и портов захода. До начала рейса в плане безопасности указано, что разрешено и что мы рекомендуем."
+          ],
+          [
+            "Вы охраняете частные яхты?",
+            "Да. Для яхт мы проводим ту же оценку рейса, инструктаж экипажа и охрану на борту, что и для коммерческих судов, в масштабе поездки."
+          ]
         ]
       }
     }

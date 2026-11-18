@@ -16,10 +16,11 @@ Phone (24/7): +1 202-831-4443
 - [Protective Intelligence](https://infinitumdefense.com/services/protective-intelligence): Threat and vulnerability assessments, open-source monitoring and pre-deployment briefings that identify threats before they reach your door. Washington, D.C.
 - [Critical Infrastructure Protection](https://infinitumdefense.com/services/critical-infrastructure-protection): Layered security for data centers, utilities, logistics hubs and government-adjacent sites: perimeter patrols, command post staffing and surveillance detection.
 - [Tactical Training](https://infinitumdefense.com/services/security-training): Practical training for staff and security teams: active-threat response drills, tactical first aid and security team readiness. Washington, D.C.
+- [Maritime Security & Anti-Piracy](https://infinitumdefense.com/services/maritime-security): Anti-piracy protection for ships and crews: voyage risk assessments, embarked security teams, vessel hardening and crew drills for high-risk waters. 24/7.
 
 ## Frequently asked questions
 
-- What security services does Infinitum Defense provide? Physical protection, executive protection, event security, armed tactical response, secure transport, protective intelligence, critical infrastructure protection and tactical training, plus security consulting.
+- What security services does Infinitum Defense provide? Physical protection, executive protection, event security, armed tactical response, secure transport, protective intelligence, critical infrastructure protection, maritime security and anti-piracy, and tactical training, plus security consulting.
 - Where are you based? Infinitum Defense is headquartered in Washington, D.C., and is the defensive arm of Infinitum Corporation.
 - Are you available outside business hours? Yes. Our operations desk is open 24 hours a day, 7 days a week, including weekends and holidays.
 - How long are contracts? From a single day to indefinitely. The same team can cover one event, a tense week or a permanent post.
@@ -28,5 +29,5 @@ Phone (24/7): +1 202-831-4443
 ## Pages
 
 - [Home](https://infinitumdefense.com/): overview, services, approach and contact form
-- [Services](https://infinitumdefense.com/services): all eight services
+- [Services](https://infinitumdefense.com/services): all nine services
 - [Russian version](https://infinitumdefense.com/ru): the whole site in Russian
