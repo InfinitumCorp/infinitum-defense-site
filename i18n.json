@@ -692,6 +692,62 @@
     "fa5": {
       "en": "Book a free consultation. We assess the threat with you and reply with a written plan covering staffing, posts and timeline.",
       "ru": "Запишитесь на бесплатную консультацию. Мы вместе оценим угрозу и пришлём письменный план с составом, постами и сроками."
+    },
+    "pir_label": {
+      "en": "Anti-piracy",
+      "ru": "Защита от пиратов"
+    },
+    "pir_h2": {
+      "en": "Safe passage through high-risk waters.",
+      "ru": "Безопасный проход через опасные воды."
+    },
+    "pir_p": {
+      "en": "Piracy and armed robbery at sea still target ships, crews and cargo. We plan each voyage with the owner and master, and stay with the vessel through the transit.",
+      "ru": "Пиратство и вооружённый грабёж на море по-прежнему угрожают судам, экипажам и грузам. Мы планируем каждый рейс вместе с владельцем и капитаном и остаёмся с судном на всём переходе."
+    },
+    "pir1_label": {
+      "en": "Before sailing",
+      "ru": "До выхода в море"
+    },
+    "pir1_h": {
+      "en": "Voyage threat assessment",
+      "ru": "Оценка угроз на маршруте"
+    },
+    "pir1_p": {
+      "en": "Route, waters and ports reviewed against current reporting, with a written plan for every high-risk leg of the voyage.",
+      "ru": "Маршрут, акватория и порты оцениваются по актуальным данным, и для каждого опасного участка рейса составляется письменный план."
+    },
+    "pir2_label": {
+      "en": "In transit",
+      "ru": "На переходе"
+    },
+    "pir2_h": {
+      "en": "Embarked security team",
+      "ru": "Охрана на борту"
+    },
+    "pir2_p": {
+      "en": "Security officers aboard for the transit, armed or unarmed as the flag state, route and ports allow.",
+      "ru": "Сотрудники охраны на борту на время перехода — с оружием или без, в зависимости от правил государства флага, маршрута и портов."
+    },
+    "pir3_label": {
+      "en": "If attacked",
+      "ru": "При нападении"
+    },
+    "pir3_h": {
+      "en": "Hardened vessel, drilled crew",
+      "ru": "Подготовленное судно и экипаж"
+    },
+    "pir3_p": {
+      "en": "Access points and the citadel prepared, and the crew drilled on alarms, lockdown and communications before the first threat appears.",
+      "ru": "Точки доступа и цитадель подготовлены, а экипаж заранее отработал тревогу, укрытие и связь — до появления первой угрозы."
+    },
+    "pir_cta": {
+      "en": "Plan a protected transit",
+      "ru": "Спланировать охраняемый переход"
+    },
+    "pir_more": {
+      "en": "Maritime security in detail",
+      "ru": "Подробнее о морской охране"
     }
   },
   "js": {
