@@ -53,7 +53,7 @@
       "url": "https://infinitumdefense.com/",
       "logo": { "@type": "ImageObject", "url": "https://infinitumdefense.com/icon-512.png", "width": 512, "height": 512 },
       "image": "https://infinitumdefense.com/og-image.png",
-      "description": "Infinitum Defense, the defensive arm of Infinitum Corporation, provides physical protection, executive protection, event security, armed tactical response, secure transport, protective intelligence, critical infrastructure protection and tactical training from Washington, D.C.",
+      "description": "Infinitum Defense, the defensive arm of Infinitum Corporation, provides physical protection, executive protection, event security, armed tactical response, secure transport, protective intelligence, critical infrastructure protection, maritime security and anti-piracy, and tactical training from Washington, D.C.",
       "slogan": "We protect what matters most.",
       "telephone": "+1-202-831-4443",
       "contactPoint": { "@type": "ContactPoint", "telephone": "+1-202-831-4443", "contactType": "customer service", "areaServed": "US", "availableLanguage": ["English", "Russian"], "hoursAvailable": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "00:00", "closes": "23:59" } },
@@ -70,7 +70,7 @@
         "opens": "00:00",
         "closes": "23:59"
       },
-      "knowsAbout": ["Executive protection", "Close protection", "Event security", "Armed security", "Secure transport", "Protective intelligence", "Threat assessment", "Critical infrastructure protection", "Tactical training", "Security consulting"],
+      "knowsAbout": ["Executive protection", "Close protection", "Event security", "Armed security", "Secure transport", "Protective intelligence", "Threat assessment", "Critical infrastructure protection", "Tactical training", "Maritime security", "Anti-piracy", "Security consulting"],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Mission sets",
@@ -82,7 +82,8 @@
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Secure Transport & Convoy", "url": "https://infinitumdefense.com/services/secure-transport", "serviceType": "Secure transport", "description": "Armored and escort vehicles, route reconnaissance and advance team coordination for people and high-value assets." } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Protective Intelligence", "url": "https://infinitumdefense.com/services/protective-intelligence", "serviceType": "Threat assessment", "description": "Threat and vulnerability assessments, open-source monitoring and pre-deployment briefings." } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Critical Infrastructure Protection", "url": "https://infinitumdefense.com/services/critical-infrastructure-protection", "serviceType": "Facility security", "description": "Perimeter and patrol operations, command post staffing and surveillance detection for data centers, utilities, logistics hubs and government-adjacent sites." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tactical Training", "url": "https://infinitumdefense.com/services/security-training", "serviceType": "Security training", "description": "Active-threat response drills, tactical first aid and security team readiness training." } }
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tactical Training", "url": "https://infinitumdefense.com/services/security-training", "serviceType": "Security training", "description": "Active-threat response drills, tactical first aid and security team readiness training." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Maritime Security & Anti-Piracy", "url": "https://infinitumdefense.com/services/maritime-security", "serviceType": "Maritime security", "description": "Voyage threat assessments, embarked security teams, vessel hardening and crew drills for ships transiting high-risk waters." } }
         ]
       }
     },
@@ -472,6 +473,8 @@ footer .wrap { padding-block: 72px 40px; }
           <button role="tab" id="t7" aria-controls="p7" aria-selected="false" tabindex="-1"><span data-i18n="s7s">{{s7s}}</span> <span class="mono">07</span></button>
           <div class="grp" data-i18n="g_readiness">{{g_readiness}}</div>
           <button role="tab" id="t8" aria-controls="p8" aria-selected="false" tabindex="-1"><span data-i18n="s8">{{s8}}</span> <span class="mono">08</span></button>
+          <div class="grp" data-i18n="g_maritime">{{g_maritime}}</div>
+          <button role="tab" id="t9" aria-controls="p9" aria-selected="false" tabindex="-1"><span data-i18n="s9m">{{s9m}}</span> <span class="mono">09</span></button>
         </div>
         <div class="ops-panels">
           <article class="op" role="tabpanel" id="p1" aria-labelledby="t1" data-service="Physical Protection">
@@ -537,6 +540,14 @@ footer .wrap { padding-block: 72px 40px; }
             <ul><li data-i18n="p8a">{{p8a}}</li><li data-i18n="p8b">{{p8b}}</li><li data-i18n="p8c">{{p8c}}</li></ul>
             <a class="btn" href="#contact"><span data-i18n="p8btn">{{p8btn}}</span> <span class="arr">→</span></a>
             <a class="more" href="{{u_s8}}" data-i18n-attr="href:u_s8"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
+          </article>
+          <article class="op" role="tabpanel" id="p9" aria-labelledby="t9" data-service="Maritime Security" hidden>
+            <div class="op-top"><span class="label" data-i18n="g_maritime">{{g_maritime}}</span><span class="op-num">09</span></div>
+            <h3 data-i18n="s9m">{{s9m}}</h3>
+            <p data-i18n="p9">{{p9}}</p>
+            <ul><li data-i18n="p9a">{{p9a}}</li><li data-i18n="p9b">{{p9b}}</li><li data-i18n="p9c">{{p9c}}</li></ul>
+            <a class="btn" href="#contact"><span data-i18n="p9btn">{{p9btn}}</span> <span class="arr">→</span></a>
+            <a class="more" href="{{u_s9}}" data-i18n-attr="href:u_s9"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
         </div>
       </div>
@@ -645,6 +656,7 @@ footer .wrap { padding-block: 72px 40px; }
               <option value="Protective Intelligence" data-i18n="s6">{{s6}}</option>
               <option value="Critical Infrastructure Protection" data-i18n="s7">{{s7}}</option>
               <option value="Tactical Training" data-i18n="s8">{{s8}}</option>
+              <option value="Maritime Security" data-i18n="s9s">{{s9s}}</option>
               <option value="Security consulting" data-i18n="s9">{{s9}}</option>
             </select>
           </div>
@@ -669,7 +681,7 @@ footer .wrap { padding-block: 72px 40px; }
         <p style="margin:14px 0 0;font-size:14px"><a class="mono" href="tel:+12028314443">(202) 831-4443</a></p>
       </div>
       <div><h4 data-i18n="g_protection">{{g_protection}}</h4><ul><li><a href="#services" data-op="1" data-i18n="s1">{{s1}}</a></li><li><a href="#services" data-op="2" data-i18n="s2">{{s2}}</a></li><li><a href="#services" data-op="3" data-i18n="s3">{{s3}}</a></li></ul></div>
-      <div><h4 data-i18n="ft_tact">{{ft_tact}}</h4><ul><li><a href="#services" data-op="4" data-i18n="s4">{{s4}}</a></li><li><a href="#services" data-op="5" data-i18n="s5s">{{s5s}}</a></li><li><a href="#services" data-op="6" data-i18n="s6">{{s6}}</a></li></ul></div>
+      <div><h4 data-i18n="ft_tact">{{ft_tact}}</h4><ul><li><a href="#services" data-op="4" data-i18n="s4">{{s4}}</a></li><li><a href="#services" data-op="5" data-i18n="s5s">{{s5s}}</a></li><li><a href="#services" data-op="6" data-i18n="s6">{{s6}}</a></li><li><a href="#services" data-op="9" data-i18n="s9s">{{s9s}}</a></li></ul></div>
       <div><h4 data-i18n="ft_company">{{ft_company}}</h4><ul><li><a href="#about" data-i18n="nav_about">{{nav_about}}</a></li><li><a href="#approach" data-i18n="nav_approach">{{nav_approach}}</a></li><li><a href="{{u_hub}}" data-i18n-attr="href:u_hub" data-i18n="all_svc">{{all_svc}}</a></li><li><a href="#contact" data-i18n="ft_contact">{{ft_contact}}</a></li></ul></div>
     </div>
     <div class="foot-bot label">
