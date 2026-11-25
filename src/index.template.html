@@ -316,6 +316,9 @@ section.band > .wrap { padding-block: clamp(80px, 10vw, 140px); }
 .about-grid h3 { font-weight: 400; font-size: 24px; margin: 14px 0 12px; letter-spacing: -.03em; }
 .about-grid p { margin: 0; color: var(--muted); max-width: 54ch; }
 @media (max-width: 760px) { .about-grid { grid-template-columns: 1fr; } .about-grid > div { padding: 24px; } }
+.pir-grid { grid-template-columns: repeat(3, 1fr); margin-top: 0; }
+.pir-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; margin-top: 48px; }
+@media (max-width: 900px) { .pir-grid { grid-template-columns: 1fr; } }
 
 /* Approach */
 .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; position: relative; }
@@ -392,9 +395,9 @@ footer .wrap { padding-block: 72px 40px; }
 }
 
 /* Service links and FAQ */
-.op .more, .sec-head .more { display: inline-flex; gap: 8px; margin: 44px 0 0 24px; font-size: 14px; color: var(--muted); border-bottom: 1px solid var(--line-strong); padding-bottom: 4px; transition: color .2s, border-color .2s; }
-.sec-head .more { margin: 0; }
-.op .more:hover, .sec-head .more:hover { color: var(--fg); border-color: var(--fg); }
+.op .more, .sec-head .more, .pir-cta .more { display: inline-flex; gap: 8px; margin: 44px 0 0 24px; font-size: 14px; color: var(--muted); border-bottom: 1px solid var(--line-strong); padding-bottom: 4px; transition: color .2s, border-color .2s; }
+.sec-head .more, .pir-cta .more { margin: 0; }
+.op .more:hover, .sec-head .more:hover, .pir-cta .more:hover { color: var(--fg); border-color: var(--fg); }
 @media (max-width: 760px) { .op .more { margin-left: 0; margin-top: 20px; display: flex; width: max-content; } }
 .faq details { border-top: 1px solid var(--line); }
 .faq details:last-child { border-bottom: 1px solid var(--line); }
@@ -550,6 +553,39 @@ footer .wrap { padding-block: 72px 40px; }
             <a class="more" href="{{u_s9}}" data-i18n-attr="href:u_s9"><span data-i18n="more">{{more}}</span> <span class="arr">→</span></a>
           </article>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="anti-piracy">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="label" data-scramble data-i18n="pir_label">{{pir_label}}</div>
+        <div>
+          <h2 data-i18n="pir_h2">{{pir_h2}}</h2>
+          <p data-i18n="pir_p">{{pir_p}}</p>
+        </div>
+      </div>
+      <div class="about-grid pir-grid">
+        <div data-tilt="5">
+          <div class="label" data-i18n="pir1_label">{{pir1_label}}</div>
+          <h3 data-i18n="pir1_h">{{pir1_h}}</h3>
+          <p data-i18n="pir1_p">{{pir1_p}}</p>
+        </div>
+        <div data-tilt="5">
+          <div class="label" data-i18n="pir2_label">{{pir2_label}}</div>
+          <h3 data-i18n="pir2_h">{{pir2_h}}</h3>
+          <p data-i18n="pir2_p">{{pir2_p}}</p>
+        </div>
+        <div data-tilt="5">
+          <div class="label" data-i18n="pir3_label">{{pir3_label}}</div>
+          <h3 data-i18n="pir3_h">{{pir3_h}}</h3>
+          <p data-i18n="pir3_p">{{pir3_p}}</p>
+        </div>
+      </div>
+      <div class="pir-cta">
+        <a class="btn" href="#contact"><span data-i18n="pir_cta">{{pir_cta}}</span> <span class="arr">→</span></a>
+        <a class="more" href="{{u_s9}}" data-i18n-attr="href:u_s9"><span data-i18n="pir_more">{{pir_more}}</span> <span class="arr">→</span></a>
       </div>
     </div>
   </section>
