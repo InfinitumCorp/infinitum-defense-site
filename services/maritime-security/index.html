@@ -245,6 +245,7 @@ footer .wrap{padding-block:64px 40px}
 .grid3>li+li{padding-left:0;border-left:0;border-top:1px solid var(--line);margin-top:24px}.for{grid-template-columns:1fr}
 .foot-top{grid-template-columns:1fr 1fr}.foot-top>div:first-child{grid-column:1/-1}}
 </style>
+<style>.cumulus-bar{display:inline-flex;align-items:center;flex-shrink:0;max-width:100%}@media (max-width:860px){.nav .wrap{flex-wrap:wrap;height:auto;min-height:64px;gap:10px 20px;padding-block:14px}.nav .cumulus-bar{margin-left:auto}}</style>
 </head>
 <body>
 <header class="nav">
@@ -257,6 +258,7 @@ footer .wrap{padding-block:64px 40px}
     </nav>
     <a class="btn" href="/#contact">Let's talk</a>
     <div class="lang" role="group" aria-label="Language"><a href="/services/maritime-security" hreflang="en" lang="en" data-lang="en" aria-current="true">EN</a><i aria-hidden="true">/</i><a href="/ru/services/maritime-security" hreflang="ru" lang="ru" data-lang="ru">RU</a></div>
+    <div class="cumulus-bar" data-cumulus-bar data-theme="dark"></div>
   </div>
 </header>
 <nav class="crumbs wrap" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li aria-current="page">Maritime Security &amp; Anti-Piracy</li></ol></nav>
@@ -303,5 +305,6 @@ footer .wrap{padding-block:64px 40px}
   </div>
 </footer>
 <script>document.querySelectorAll(".lang a").forEach(a=>a.addEventListener("click",()=>{try{localStorage.setItem("lang",a.dataset.lang)}catch(e){}}))</script>
+<script src="https://id.cumuluscloud.app/id/bar.js" data-client="defense" defer></script>
 </body>
 </html>
